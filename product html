@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Home Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Modern Home Store</h1>
+
+    <a href="cart.html" class="cart-btn">
+        🛒 Cart
+    </a>
+</header>
+
+<!-- CHECKMARK -->
+<div id="checkmark">
+    ✔ Added to cart
+</div>
+
+<div class="products-container">
+
+    <!-- PRODUCT 1 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Vacuum Cleaner</h2>
+        <div class="price-box">$120</div>
+        <button onclick="addToCart('Vacuum Cleaner',120)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Microwave</h2>
+        <div class="price-box">$200</div>
+        <button onclick="addToCart('Microwave',200)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Electric Kettle</h2>
+        <div class="price-box">$40</div>
+        <button onclick="addToCart('Electric Kettle',40)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 4 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Iron</h2>
+        <div class="price-box">$35</div>
+        <button onclick="addToCart('Iron',35)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 5 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Fan</h2>
+        <div class="price-box">$55</div>
+        <button onclick="addToCart('Fan',55)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 6 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Toaster</h2>
+        <div class="price-box">$25</div>
+        <button onclick="addToCart('Toaster',25)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 7 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Blender</h2>
+        <div class="price-box">$60</div>
+        <button onclick="addToCart('Blender',60)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 8 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Coffee Machine</h2>
+        <div class="price-box">$150</div>
+        <button onclick="addToCart('Coffee Machine',150)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 9 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Hair Dryer</h2>
+        <div class="price-box">$45</div>
+        <button onclick="addToCart('Hair Dryer',45)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 10 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Air Conditioner</h2>
+        <div class="price-box">$500</div>
+        <button onclick="addToCart('Air Conditioner',500)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 11 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Washing Machine</h2>
+        <div class="price-box">$700</div>
+        <button onclick="addToCart('Washing Machine',700)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 12 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Refrigerator</h2>
+        <div class="price-box">$950</div>
+        <button onclick="addToCart('Refrigerator',950)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 13 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Dishwasher</h2>
+        <div class="price-box">$650</div>
+        <button onclick="addToCart('Dishwasher',650)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 14 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Heater</h2>
+        <div class="price-box">$90</div>
+        <button onclick="addToCart('Heater',90)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 15 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Rice Cooker</h2>
+        <div class="price-box">$70</div>
+        <button onclick="addToCart('Rice Cooker',70)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 16 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Water Dispenser</h2>
+        <div class="price-box">$130</div>
+        <button onclick="addToCart('Water Dispenser',130)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 17 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Juicer</h2>
+        <div class="price-box">$85</div>
+        <button onclick="addToCart('Juicer',85)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 18 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Air Fryer</h2>
+        <div class="price-box">$140</div>
+        <button onclick="addToCart('Air Fryer',140)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 19 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Smart TV</h2>
+        <div class="price-box">$800</div>
+        <button onclick="addToCart('Smart TV',800)">
+            Add to Cart
+        </button>
+    </div>
+
+    <!-- PRODUCT 20 -->
+    <div class="product-card">
+        <div class="product-image"></div>
+        <h2>Speaker</h2>
+        <div class="price-box">$110</div>
+        <button onclick="addToCart('Speaker',110)">
+            Add to Cart
+        </button>
+    </div>
+
+</div>
+
+<script src="scrypt.js"></script>
+</body>
+</html>
